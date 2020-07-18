@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/opensans-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/line-awesome/css/line-awesome.min.css">
+	<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+    <link rel="stylesheet" href="/static/css/style.css"/>
+</head>
+
+<style>
+  body {
+    background-image: url('/static/googlemap.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+</style>
+
+
+<body class="form-v4">
+	<div class="page-content">
+		<div class="form-v4-content">
+			<div class="form-left">
+				<h2>INFOMATION</h2>
+				<p class="text-1"> This form is designed to help stop the spread of COVID-19. By self-reporting the locations you have been to before testing postive, we are now one step closer to bring normality back in our lives. </p>
+				<p class="text-2"> You are helping others to identify red zone areas where you are highest at risk in receiving COVID-19. You are saving people's lives and reducing their risk of contraction. Please self-quarantine after tesing postive. You are a hero for filling out this form!</p>
+			</div>
+			
+    
+  
+			<form class="form-detail" action="." method="POST" id="myform">
+				<h2>CORONA FORM</h2>
+				<div class="form-row">
+						<label for="first_name">Street Address</label>
+						<input type="text" name="Address" id="first_name" class="input-text">
+				</div>
+				<div class="form-row">
+					<label for="your_email">Town</label>
+					<input type="text" name="Town" id="your_email" class="input-text">
+				</div>
+				<div class="form-group">
+					<div class="form-row form-row-1 ">
+						<label for="your_email">State</label>
+						<input type="text" name="State" id="password" class="input-text">
+					</div>
+				</div>
+				<div class="form-row-last">
+					<input type="submit" name="register" class="register" value="Stop COVID-19">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
